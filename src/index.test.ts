@@ -1,5 +1,7 @@
 import { describe, test } from '@jest/globals'
 
 describe('[index]', () => {
-  test.todo('todo')
+  test('whoami', () => {
+    expect(1).toBe(1)
+  })
 })
